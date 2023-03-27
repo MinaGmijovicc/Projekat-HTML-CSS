@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Projektni zadatak</title>
+		<meta name="author" content="Bogdan Djordjevic"/>
+		<meta name="description" content="HTML"/>
+		<meta name="keywords" content="projekat, zavrsniRad"/>
+		<link rel="stylesheet" href="css.css" type="text/css">
+	</head>
+	
+	<body background="digit.png">
+	<div class="border">
+	</div>
+	<header>
+	<div class = "glavnalista">
+		<ul id = "glavnaopet">
+			<a id="linkovi" href="PocetnaStrana.html"/><li>HELLO</li></a>
+			<a id="linkovi" href="OKompaniji.html"/><li>O KOMPANIJI</li></a>
+			<a id="linkovi" href="Proizvodi.html"/><li>PROIZVOD</li></a>
+			<a id="linkovi" href="ONama.html"/><li>O NAMA</li></a>
+			<a id="linkovi" href="Karijere.html"/><li>KARIJERE</li></a>
+			<a id="linkovi" href="Kontakt.html"/><li>KONTAKT</li></a>
+			<a id="linkovi" href="Blog.html"/><li>BLOG</li></a>
+		</ul>
+	</div>
+	<div id = "logo">
+		<a id="linkovi" href="PocetnaStrana.html"/><img src = "logo.png" width = "90" height = "80"></a>
+	</div>
+	</header>
+	<div id ="logoi" style = "padding: 20px;">
+		<a href ="http://www.facebook.com"><img src = "facebooklogo.png" width = "50" height = "50"></a>
+		<br>
+		<a href = "http://www.instagram.com"><img src = "instalogo.png" width = "50" height = "50"></a>
+		<br>
+		<a href = "http://www.twitter.com"><img src = "twitlogo.png" width = "50" height = "50"></a>
+	</div>
+	</body>
+</html>

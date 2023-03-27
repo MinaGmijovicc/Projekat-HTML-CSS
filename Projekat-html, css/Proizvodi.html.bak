@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<title>Projektni zadatak</title>
+		<meta name="author" content="Bogdan Djordjevic"/>
+		<meta name="description" content="HTML"/>
+		<meta name="keywords" content="projekat, zavrsniRad"/>
+		<link rel="stylesheet" href="css.css" type="text/css">
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+	</head>
+	
+	<body background = "digit2.png">
+	<div class="border">
+	</div>
+	
+	<div class = "glavnalista">
+		<ul id = "glavnaopet">
+			<a id="linkovi" href="PocetnaStrana.html"/><li>HELLO</li></a>
+			<a id="linkovi" href="OKompaniji.html"/><li>O KOMPANIJI</li></a>
+			<a id="linkovi" href="Proizvodi.html"/><li>PROIZVOD</li></a>
+			<a id="linkovi" href="ONama.html"/><li>O NAMA</li></a>
+			<a id="linkovi" href="Karijere.html"/><li>KARIJERE</li></a>
+			<a id="linkovi" href="Kontakt.html"/><li>KONTAKT</li></a>
+			<a id="linkovi" href="Blog.html"/><li>BLOG</li></a>
+		</ul>
+	</div>
+		<a id="linkovi" href="PocetnaStrana.html"/><img src = "logo.png" width = "90" height = "80"></a>
+		<div id ="logoi" style = "padding: 20px;">
+		<a href ="http://www.facebook.com"><img src = "facebooklogo.png" width = "50" height = "50"></a>
+		<br>
+		<a href = "http://www.instagram.com"><img src = "instalogo.png" width = "50" height = "50"></a>
+		<br>
+		<a href = "http://www.twitter.com"><img src = "twitlogo.png" width = "50" height = "50"></a>
+	</div>
+		
+	<div class="padding-box">
+				<div id="product" >
+					<h3>Digitalni marketing</h3>
+					<div id="description" style="display:none">
+						<ul>
+							<li>Programatic oglašavanje</li>
+							<li>Automatizacija oglašavanja</li>
+						</ul>
+					</div>
+				</div>
+		
+		
+				<div id="product2" >
+					<h3>Informacione tehnologije</h3>
+					<div id="description2" style="display:none">
+						<ul>
+							<li>Vođenje IT projekata</li>
+							<li>Virtuelizacija </li>
+						</ul>
+					</div>
+				</div>
+
+				
+				<div id="product3" >
+					<h3>Ostalo</h3>
+					<div id="description3" style="display:none">
+						<ul>
+							<li>Rešenja otvorenog-koda</li>
+							<li>IT konsalting</li>
+						</ul>
+					</div>
+				</div>
+		</div>
+	</body>
+	<script>
+	
+			var e = document.getElementById('product');
+			var b = document.getElementById('product2');
+			var c = document.getElementById('product3');
+			
+			e.onmouseover = function() {
+			document.getElementById('description').style.display = 'block';
+			}
+			e.onmouseout = function() {
+			document.getElementById('description').style.display = 'none';
+			}
+			
+			b.onmouseover = function() {
+			document.getElementById('description2').style.display = 'block';
+			}
+			b.onmouseout = function() {
+			document.getElementById('description2').style.display = 'none';
+			}
+			
+			c.onmouseover = function() {
+			document.getElementById('description3').style.display = 'block';
+			}
+			c.onmouseout = function() {
+			document.getElementById('description3').style.display = 'none';
+			}
+			
+			
+			
+			
+	</script>
+</html>

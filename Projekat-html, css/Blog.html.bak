@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>Projektni zadatak</title>
+		<meta name="author" content="Bogdan Djordjevic"/>
+		<meta name="description" content="HTML"/>
+		<meta name="keywords" content="projekat, zavrsniRad"/>
+		<link rel="stylesheet" href="css.css" type="text/css">
+	</head>
+	
+	<body background="digit3.jpg">
+	<div class="border">
+	</div>
+	
+	<div class = "glavnalista">
+		<ul id = "glavnaopet">
+			<a id="linkovi" href="PocetnaStrana.html"/><li>POCETNA</li></a>
+			<a id="linkovi" href="OKompaniji.html"/><li>O KOMPANIJI</li></a>
+			<a id="linkovi" href="Proizvodi.html"/><li>USLUGE</li></a>
+			<a id="linkovi" href="ONama.html"/><li>O NAMA</li></a>
+			<a id="linkovi" href="Karijere.html"/><li>KARIJERE</li></a>
+			<a id="linkovi" href="Kontakt.html"/><li>KONTAKT</li></a>
+			<a id="linkovi" href="Blog.html"/><li>BLOG</li></a>
+		</ul>
+	</div>
+	<div id = "logo">
+		<a id="linkovi" href="PocetnaStrana.html"/><img src = "logo.png" width = "90" height = "80"></a>
+	</div>
+	
+	<div class = "novosti">
+	<p> Novosti </p>
+	</div>
+	
+	
+	<div class = "blogovi1">
+	<h2> DigIT kompanija otvara novi radni prostor! Svecano otvaranje 22.2.2019.<br></h2>
+	<p> Novim prostorom od 1500m2 u zgradi na glavnom bulevara kompanija dobija novo ime </br>
+		i novi ugled. 5.5.2019. godine u ovaj radni prostor se seli glavno sediste kompanije.</br>
+		<br>
+		S postovanjem, <br>
+		Direktor Mina Gmijovic.</p>
+		<img src = "zgrade.jpg" width = "200" height = "130">
+	</div>
+	
+	<div class = "blogovi2">
+	<h2> DigIT kompanija odrzava konkurs za budece kolege!<br>
+		Budite i Vi deo naseg tima!</h2>
+		
+	<p> Za vise informacija posetite stranicu "KARIJERE".
+		<br>
+		<br>
+		S postovanjem, <br>
+		Direktor Mina Gmijovic.</p>
+		<img src = "konkurs.jpg" width = "200" height = "130">
+	</div>
+	
+	
+	<div id ="logoi" style = "padding: 20px;">
+		<a href ="http://www.facebook.com"><img src = "facebooklogo.png" width = "50" height = "50"></a>
+		<br>
+		<a href = "http://www.instagram.com"><img src = "instalogo.png" width = "50" height = "50"></a>
+		<br>
+		<a href = "http://www.twitter.com"><img src = "twitlogo.png" width = "50" height = "50"></a>
+	</div>
+	</body>
+</html>

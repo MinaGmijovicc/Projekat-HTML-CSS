@@ -1,0 +1,389 @@
+body{
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	position: fixed;
+}
+.glavnalista li{
+	display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+	font-family: "Times New Roman";
+	float:left;
+}
+.glavnalista ul{
+    overflow: hidden;
+	position: fixed;
+    width: 61%;
+	margin-left: 5%;
+}
+
+.border{
+	background-color:#81746C;
+	width:100%;
+	height: 0.1%;
+	margin-top: 70px;
+	position: fixed;
+}
+.tekst2{
+	font-size: 20px;
+	color: black;
+	position: fixed;
+	font-family:Courier New;
+	background-color: #ddd;
+	opacity: 0.8;
+	transition: 0.3s;
+	margin-top: 25%;
+	margin-left: 15%;
+	margin-right: 10%;
+}
+.tekst1{
+	font-size: 25px;
+	color: black;
+	position: fixed;
+	font-family:Courier New;
+	background-color: #ddd;
+	opacity: 0.8;
+	transition: 0.3s;
+	margin-left: 25%;
+	margin-right: 20%;
+	margin-top:14%;
+}
+.zaposleni img{
+	border-radius: 50%;
+}
+.zaposleni{
+	text-align: center;
+	position: fixed;
+	color:black;
+	padding-top: 200px;
+	font-family: "Courier New";
+	
+	background-color:#ddd;
+	border: none;
+	opacity: 0.6;
+	transition: 0.3s;
+	height:50%;
+	padding: 20px;
+	margin-left: 5%;
+}
+.zaposleni:hover{
+	opacity: 1;
+}
+.zaposleni h1{
+	font-size: 30px;
+}
+.drugi {
+	text-align: center;
+	margin-left: 30%;
+	position: fixed;
+	color:black;
+	padding-top: 200px;
+	font-family: "Courier New";
+	
+	background-color:#ddd;
+	border: none;
+	opacity: 0.6;
+	transition: 0.3s;
+	height:50%;
+	padding: 20px;
+	margin-left: 27%;
+}
+.drugi:hover{
+	opacity: 1;
+}
+.drugi img{
+		border-radius:50%;
+}
+.treci{
+	text-align: center;
+	margin-left: 50%;
+	position: fixed;
+	color:black;
+	padding-top: 200px;
+	font-family: "Courier New";
+	
+	background-color:#ddd;
+	border: none;
+	opacity: 0.6;
+	transition: 0.3s;
+	height:50%;
+	padding: 20px;
+	margin-left: 47.5%;
+}
+.treci:hover{
+	opacity:1;
+}
+.treci img{
+		border-radius:50%;
+}
+.cetvrti{
+	text-align: center;
+	margin-left: 70%;
+	position: fixed;
+	color:black;
+	padding-top: 200px;
+	font-family: "Courier New";
+	
+	background-color:#ddd;
+	border: none;
+	opacity: 0.6;
+	transition: 0.3s;
+	height:50%;
+	padding: 20px;
+	margin-left: 69.5%;
+}
+.cetvrti:hover{
+	opacity:1;
+}
+.cetvrti img{
+		border-radius:50%;
+}
+.tekstic{
+		position: fixed;
+}
+.tekstic p{
+	font-size: 20px;
+	color: black;
+	font-family:Courier New;
+	font-weight: bold;
+	padding-bottom: 10px;
+	position: fixed;
+}
+.logos{
+	position: fixed;
+}
+.mapouter{
+	margin-left: 83%;
+	padding: 20px;
+}
+.blogic{
+	position: fixed;
+	margin-left: 10%;
+	padding: 40px;
+}
+.blogic h2{
+	color: white;
+}
+.blogic2{
+	position: fixed;
+	margin-left: 50%;
+	padding: 40px;
+}
+.blogic2 h2{
+	color: white;
+}
+.svi{
+	padding: 30px;
+}
+.teksticc{
+	padding: 220px;
+	color: black;
+	font-family: "Courier New";
+	font-size: 25px;
+	text-align: center;
+}
+.dobrodosli{
+	padding: 70px;
+}
+.kontaktNovi{
+	font-family:Courier New;
+	font-size: 20px;
+	font-weight: bold;
+	position: fixed;
+	padding: 550px;
+}
+.proizvodi1{
+	position: fixed;
+	margin-left: 20%;
+	margin-top: 2%;
+	background-color:#ddd;
+	border: none;
+	opacity: 0.9;
+	transition: 0.3s; 
+	height: 38%;
+	width: 30%;
+	text-align: center;
+}
+.proizvodi1 p{
+	font-size: 60px;
+}
+.proizvodi2{
+	position:fixed;
+	margin-left: 50%;
+	margin-top: 2%;
+	background-color:#ddd;
+	border: none;
+	opacity: 0.9;
+	transition: 0.3s;
+	height: 38%;
+	width: 30%;
+	text-align: center;
+}
+.proizvodi2 p{
+	font-size: 60px;
+}
+.proizvodi3{
+	position:fixed;
+	margin-left: 20%;
+	margin-top: 20%;
+	background-color:#ddd;
+	border: none;
+	opacity: 0.9;
+	transition: 0.3s;
+	height: 38%;
+	width: 30%;
+	text-align: center;
+}
+.proizvodi3 p{
+	font-size: 60px;
+}
+.proizvodi4{
+	position:fixed;
+	margin-left: 50%;
+	margin-top: 20%;
+	background-color:#ddd;
+	border: none;
+	opacity: 0.9;
+	transition: 0.3s;
+	height: 38%;
+	width: 30%;
+	text-align: center;
+}
+.proizvodi4 p{
+	font-size: 60px;
+}
+.blogovi1 {
+	background-color:#ddd;
+	border: none;
+	opacity: 0.9;
+	transition: 0.3s;
+	position: fixed;
+	width: 73%;
+	height: 30%;
+	margin-left: 13%;
+	margin-top: 7%;
+}
+.blogovi1 h2{
+	text-align:center; 
+	font-family: Courier New;
+}
+.blogovi1 img{
+	margin-left: 3%;
+}
+.blogovi1 p{
+	position: fixed;
+	font-family: Courier New;
+	margin-left: 17%;
+	font-size: 2opx;
+}
+.novosti{
+	font-family: Courier New;
+	font-size: 40px;
+	margin-left: 42%;
+	position: fixed;
+	
+}
+.blogovi2 {
+	background-color:#ddd;
+	border: none;
+	opacity: 0.9;
+	transition: 0.3s;
+	position: fixed;
+	width: 73%;
+	height: 30%;
+	margin-left: 13%;
+	margin-top: 25%;
+}
+.blogovi2 h2{
+	text-align: center;
+	font-family: Courier New;
+	position: fixed;
+	margin-left: 14%;
+}
+.blogovi2 p{
+	position: fixed;
+	margin-top: 6%;
+	font-family: Courier New;
+	margin-left: 17%;
+	font-size: 2opx;
+}
+.blogovi2 img{
+	margin-left: 3%;
+	margin-top: 4%;
+	position: fixed;
+}
+.konkurs1{
+	background-color:#ddd;
+	border: none;
+	opacity: 0.9;
+	transition: 0.3s;
+	position: fixed;
+	width: 40%;
+	height: 30%;
+	margin-left: 13%;
+	margin-top: 7%;
+}
+.konkurs2{
+	background-color:#ddd;
+	border: none;
+	opacity: 0.9;
+	transition: 0.3s;
+	position: fixed;
+	width: 40%;
+	height: 30%;
+	margin-left: 13%;
+	margin-top: 25%;
+}
+.upit{
+	margin-left: 60%;
+	margin-top: 5%;
+	position: fixed;
+	font-family: Courier New;
+}
+.upit p{
+	font-size: 20px;
+}
+.konkurs1 h2{
+	text-align: center;
+	font-family: Courier New;
+	position: fixed;
+	margin-left: 9%;
+}
+.konkurs2 h2{
+	text-align: center;
+	font-family: Courier New;
+	position: fixed;
+	margin-left: 9%;
+}
+.konkurs1 p {
+	font-size: 17px;
+	font-family: Courier New;
+	position: fixed;
+	margin-top: 6%;
+	margin-left: 2%;
+}
+.konkurs2 p {
+	
+	font-size: 17px;
+	font-family: Courier New;
+	position: fixed;
+	margin-top: 6%;
+	margin-left: 2%;
+}
+.padding-box{
+	position: fixed;
+	font-size: 30px;
+	font-family: Courier New;
+	background: #ddd;
+	border: none;
+	opacity: 0.9;
+	transition: 0.3s;
+	text-align: center;
+	
+	margin-left: 31%;
+	margin-bottom: 1%;
+}
+
